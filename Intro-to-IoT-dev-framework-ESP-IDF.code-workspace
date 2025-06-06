@@ -1,0 +1,54 @@
+{
+	"folders": [
+		{
+			"path": "02-getting-started/2.2-hello-world"
+		},
+		{
+			"path": "02-getting-started/2.3-blink-led"
+		},
+		{
+			"path": "02-getting-started/2.5-freertos-using-both-cores"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.2-wifi-station"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.3-wifi-softap"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.4-http-server"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.1-ota-implementation"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.2-ota-implementation"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.3-ota-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.2-spiff-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.4-uart-implementation"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"sdkconfig.h": "c",
+			"spi_flash_mmap.h": "c",
+			"gpio.h": "c",
+			"gpio_num.h": "c",
+			"freertos.h": "c",
+			"stdio.h": "c"
+		},
+		"window.autoDetectColorScheme": false,
+		"editor.fontSize": 13,
+		"terminal.integrated.fontSize": 13,
+		"debug.console.fontSize": 13,
+		"chat.editor.fontSize": 13,
+		"markdown.preview.fontSize": 13,
+		"workbench.editor.wrapTabs": true
+	}
+}
