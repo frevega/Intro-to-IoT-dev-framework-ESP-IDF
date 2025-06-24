@@ -18,7 +18,7 @@ void init(void) {
         .parity = UART_PARITY_DISABLE,
         .stop_bits = UART_STOP_BITS_1,
         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
-        .source_clk = UART_SCLK_RTC,//UART_SCLK_APB,
+        .source_clk = UART_SCLK_APB,
     };
     uart_driver_install(UART_NUM_1, RX_BUF_SIZE * 2, 0, 0, NULL, 0);
     uart_param_config(UART_NUM_1, &uart_config);
@@ -62,6 +62,6 @@ static void rx_task(void *arg)
 void app_main(void)
 {
     init();
-    xTaskCreate(rx_task, "uart_rx_task", 1024*2, NULL, configMAX_PRIORITIES, NULL);
-    xTaskCreate(tx_task, "uart_tx_task", 1024*2, NULL, configMAX_PRIORITIES-1, NULL);
+    xTaskCreate(rx_task, "uart_rx_task", 2048, NULL, configMAX_PRIORITIES-1, NULL);
+    xTaskCreate(tx_task, "uart_tx_task", 2048, NULL, configMAX_PRIORITIES-2, NULL);
 }
