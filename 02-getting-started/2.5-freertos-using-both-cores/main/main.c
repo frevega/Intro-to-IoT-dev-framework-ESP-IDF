@@ -16,7 +16,7 @@ static void blueLedTask1(void *parameter)
 {
     while (true)
     {
-        printf("blueLedTask1 running on core: %d\n", xPortGetCoreID());
+        printf("blueLedTask1\trunning on core: %d\n", xPortGetCoreID());
         gpio_set_level(BLUE_BLINK_GPIO, blueLedState);
         blueLedState = !blueLedState;
         vTaskDelay(1400 / portTICK_PERIOD_MS);
@@ -27,7 +27,7 @@ static void redLedTask2(void *parameter)
 {
     while (true)
     {
-        printf("redLedTask2 running on core: %d\n", xPortGetCoreID());
+        printf("redLedTask2\trunning on core: %d\n", xPortGetCoreID());
         gpio_set_level(RED_BLINK_GPIO, redLedState);
         redLedState = !redLedState;
         vTaskDelay(700 / portTICK_PERIOD_MS);
