@@ -1,3 +1,4 @@
+.DS_Store
 02-getting-started/2.2-hello-world/build
 02-getting-started/2.2-hello-world/.devcontainer
 02-getting-started/2.2-hello-world/.vscode
@@ -42,3 +43,11 @@
 04-spiff-peripherals/4.4-uart-implementation/.devcontainer
 04-spiff-peripherals/4.4-uart-implementation/.vscode
 04-spiff-peripherals/4.4-uart-implementation/sdkconfig*
+04-spiff-peripherals/4.6-i2c-implementation-mpu6050/build
+04-spiff-peripherals/4.6-i2c-implementation-mpu6050/.devcontainer
+04-spiff-peripherals/4.6-i2c-implementation-mpu6050/.vscode
+04-spiff-peripherals/4.6-i2c-implementation-mpu6050/sdkconfig*
+04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver/build
+04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver/.devcontainer
+04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver/.vscode
+04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver/sdkconfig*

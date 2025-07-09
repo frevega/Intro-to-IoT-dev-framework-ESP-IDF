@@ -32,6 +32,12 @@
 		},
 		{
 			"path": "04-spiff-peripherals/4.4-uart-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.6-i2c-implementation-mpu6050"
+		},
+		{
+			"path": "04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver"
 		}
 	],
 	"settings": {
@@ -46,15 +52,18 @@
 			"esp_flash.h": "c",
 			"uart.h": "c",
 			"esp_log.h": "c",
-			"task.h": "c"
+			"task.h": "c",
+			"protocol_examples_common.h": "c",
+			"i2c_master.h": "c",
+			"i2c_types.h": "c"
 		},
 		"window.autoDetectColorScheme": true,
-		"editor.fontSize": 14,
-		"terminal.integrated.fontSize": 14,
-		"debug.console.fontSize": 14,
-		"chat.editor.fontSize": 14,
-		"markdown.preview.fontSize": 14,
+		"editor.fontSize": 12,
+		"terminal.integrated.fontSize": 12,
+		"debug.console.fontSize": 12,
+		"chat.editor.fontSize": 12,
+		"markdown.preview.fontSize": 12,
 		"workbench.editor.wrapTabs": true,
-		"scm.inputFontSize": 14
+		"scm.inputFontSize": 12
 	}
 }
