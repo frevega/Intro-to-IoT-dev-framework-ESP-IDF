@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"path": "02-getting-started/2.2-hello-world"
+		},
+		{
+			"path": "02-getting-started/2.3-blink-led"
+		},
+		{
+			"path": "02-getting-started/2.5-freertos-using-both-cores"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.2-wifi-station"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.3-wifi-softap"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.4-http-server"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.1-ota-implementation"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.2-ota-implementation"
+		},
+		{
+			"path": "03-wifi-http-servers-ota/3.6.3-ota-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.2-spiff-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.4-uart-implementation"
+		},
+		{
+			"path": "04-spiff-peripherals/4.6-i2c-implementation-mpu6050"
+		},
+		{
+			"path": "04-spiff-peripherals/4.7-i2c-implementation-mpu6050-webserver"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"sdkconfig.h": "c",
+			"spi_flash_mmap.h": "c",
+			"gpio.h": "c",
+			"gpio_num.h": "c",
+			"freertos.h": "c",
+			"stdio.h": "c",
+			"bootloader_flash_config.h": "c",
+			"esp_flash.h": "c",
+			"uart.h": "c",
+			"esp_log.h": "c",
+			"task.h": "c",
+			"protocol_examples_common.h": "c",
+			"i2c_master.h": "c",
+			"i2c_types.h": "c"
+		},
+		"window.autoDetectColorScheme": true,
+		"editor.fontSize": 12,
+		"terminal.integrated.fontSize": 12,
+		"debug.console.fontSize": 12,
+		"chat.editor.fontSize": 12,
+		"markdown.preview.fontSize": 12,
+		"workbench.editor.wrapTabs": true,
+		"scm.inputFontSize": 12
+	}
+}
